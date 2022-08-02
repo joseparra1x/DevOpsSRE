@@ -27,9 +27,18 @@ Se puede pensar en _Alta Concurrencia_ cuando un
 sistema no puede soportar una alta cantidad de trafico ó cuando
 el numero de usuarios no puede ser soportado por tu _monolito_.
 
+Un sistema de alta concurrencia es cuando se habla de un numero de usuario que ya no puede manejar un solo servidor.
+
+**Monolítica**: Nosotros empezamos a codear nuestra aplicación, y esta aplicación corre en un solo servidor y tiene muchos modulos dentro del mismo server y código.
+
+Se debe comenzar a pensar en un sistema de alta concurrencia cuando se tiene una cantidad de usuarios que ya no puede ser manejada por un solo servidor o un monolito.
+
+**Hay que conocer la nube y conocer los servicio que esta brinda.**
+
 ### Microservicios.
 
-- Escalamiento independiente.
+- Incremento de desarrolladores simultaneamente (opcional).
+- Escalar de forma independiente.
 - Separar los procesos.
     - Autenticación.
     - el/la procesamiento/edición de un video.
